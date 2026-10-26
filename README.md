@@ -8,3 +8,5 @@ Praktikum Results:
 3.PUT
 ![PUT](image-2.png)
 
+4.DELETE
+![DELETE](image-3.png)
