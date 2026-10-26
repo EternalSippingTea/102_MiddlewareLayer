@@ -125,7 +125,9 @@ app.get("/", async (req, res) => {
     )
 })
 
-app.post("/biodata", validateBody(biodataSchema), 
+app.post(
+    "/biodata", 
+    validateBody(biodataSchema), 
     async (req, res) => {
         const { id, nama, nim, kelas } = req.body;
 
