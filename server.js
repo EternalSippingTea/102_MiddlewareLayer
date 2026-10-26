@@ -91,3 +91,10 @@ function validateBody(schema) {
     };
 }
 
+// MIDDLEWARE UNTUK VALIDASI PARAMETER ID
+function validateIdParams(schema) {
+    return (req, res, next) => {
+        const { error, value } = schema.validate(req.params);
+
+    
+}
